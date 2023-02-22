@@ -4,30 +4,6 @@ import SearchBar from './components/search-bar/search-bar';
 import MovieList from './components/movie-list/movie-list';
 
 function App() {
-  const moviess = [
-    {
-      id: 1,
-      name: 'De Rock',
-      genre: 'Action',
-      overview:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto excepturi molestiae pariatur ut eligendi. Vitae sunt assumenda illum nobis dolor.',
-    },
-    {
-      id: 2,
-      name: 'Love and Prejudice',
-      genre: 'Romance',
-      overview:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto excepturi molestiae pariatur ut eligendi. Vitae sunt assumenda illum nobis dolor.',
-    },
-    {
-      id: 3,
-      name: 'Jungle Justice',
-      genre: 'Comedy',
-      overview:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto excepturi molestiae pariatur ut eligendi. Vitae sunt assumenda illum nobis dolor.',
-    },
-  ];
-
   const [movies, setMovies] = useState([]);
   const [filteredMovies, setFilteredMovies] = useState(movies);
 
