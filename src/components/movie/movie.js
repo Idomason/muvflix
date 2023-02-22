@@ -7,7 +7,7 @@ const Movie = ({ movie }) => {
     <>
       <div className='p-4 m-2 bg-slate-200 rounded-sm shadow-md cursor-pointer hover:scale-105 transition-all'>
         <img src={Poster} alt={Title} />
-        <h1 className='font-bold text-sm pt-3'>{Title}</h1>
+        <h1 className='font-bold text-base pt-3'>{Title}</h1>
         {/* <MovieOverview
           title={Title}
           releasedDate={Released}
