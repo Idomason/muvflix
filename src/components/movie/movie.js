@@ -14,9 +14,11 @@ const Movie = ({ movie }) => {
           genre={Genre}
           overview={Plot}
         /> */}
+        {/* <link to={`/${movie.imdbID}`}> */}
         <button className='p-2 m-2 bg-red-600 text-white rounded-md hover:scale-105 transition-all hover:bg-red-800'>
           Learn More
         </button>
+        {/* </link> */}
       </div>
     </>
   );
